@@ -28,7 +28,7 @@ bootRun.environment([
 
 def testDbUrl = "jdbc:mysql://localhost:3306/tracker_test?user=tracker&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false"
 test.environment([
-        "WELCOME_MESSAGE": "Hello from test",
+        "WELCOME_MESSAGE": "A welcome message",
         "SPRING_DATASOURCE_URL": testDbUrl,
 ])
 
